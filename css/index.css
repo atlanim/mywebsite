@@ -1,0 +1,100 @@
+body {
+	background-image: url('../assets/background.jpg');
+	margin: 0;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+
+h1 {
+	color: white;
+}
+a {
+	text-decoration: none;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 100px;
+    border: 1px solid transparent;
+    background-color: rgba(0,0,0, 0.5);
+}
+
+.nav-header {
+	margin-left: 0;
+	display: block;
+}
+
+.nav-title {
+    color: white;
+	float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.container {
+	display: block;
+	float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: black;
+}
+
+.main-container {
+	padding-left: 20px;
+	padding-right: 20px;
+	display: block;
+	margin-left: 30px;
+	margin-right: 30px;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 10px;
+	height: auto;
+}
+
+.profil {
+	border-radius: 100px;
+	border-style: solid;
+	border-width: 4px;
+	border-color: rgba(255,255,255, 0.9);
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 40px;
+}
+
+.link {
+	color: white;
+	text-align: center;
+	display: inline-block;
+	border-color: white;
+	border-style: solid;
+	border-width: 2px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	margin-left: 45%;
+	vertical-align: middle;
+}
