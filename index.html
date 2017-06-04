@@ -1,32 +1,81 @@
 <html>
 <head>
 <title>Accueil</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
 
-<nav class="navbar">
- <div>
-    <div class="nav-header" >
-      <a class="nav-title" href="#">Mylan Atlani</a>
-    </div>	
-    <ul class="container">
-      <li><a href="#">Qui suis je ?</a></li>
-      <li><a href="#">Mes projets</a></li>
-      <li><a href="#">Me contacter</a></li>
-    </ul>
- </div>
-</nav>
-<div class="main-container">
-<h1>Qui Suis je ?</h1>
-<img class="profil" src="assets/profil.png" alt="Photo de montagne" />
-<br>
-<a class="link" href="assets/CV.docm"> Télécharger mon CV
-</a>
-</div>
+    <div class="fond">
+        <nav class="navbar" id="nav">
+            <div>
+                <div class="nav-header" >
+                    <a class="nav-title" href="#">Mylan Atlani</a>
+                </div>
+                <ul class="container">
+                    <li><a href="#profil">Qui suis je ?</a></li>
+                    <li><a href="#project">Mes projets</a></li>
+                    <li><a href="#Contact">Me contacter</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section class="main-container" id="profil">
+            <h1>Qui Suis je ?</h1>
+            <img class="profil" src="assets/profil.png" />
+            <a class="description">Travailleur, ambitieux et dynamique. Je suis toujours prêt à apprendre pour évoluer et faire de mes ambitions une réalité.
+                D'un tempérament compétitif j'ai malgré tout plaisir à travailler en équipe avec des personnes compétentes et qui me permettent d'acquérir des connaissances dans les domaines transverses au mien.</a>
+                <br>
+                <a class="link" href="assets/CV.docm"> Télécharger mon CV </a>
+            </section>
+            <section id="project" class="main-container2">
+                <div>
+                    <h1 class="title2">Mes Projets</h1>
+                </div>
+                <a href="https://www.friool.com/" target="_blank">
+                    <div class="cont">
+                        <img src="assets/friool.png" alt="Friool" class="image4">
+                        <div class="overlay">
+                            <div class="text">
+                                <h2>Friool</h2>
+                                <p>Lors d'un stage d'une durée de + de 5 mois, j'ai aider à programmer avec mon maître de stage , le site Friool.
+                                    J'ai programmé autant sur le back-end que le front-end du site.
+                                    Le back-end en <b>Ruby on rails</b> et un front-end avec l'utilisation de <b>Bootstrap</b>.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="http://www.delta-festival.fr/" target="_blank">
+                    <div class="cont">
+                        <img src="assets/delta.png" alt="Delta" class="image4">
+                        <div class="overlay">
+                            <div class="text">
+                                <h2>Delta Festival</h2>
+                                <p>Dans le cadre d'un partenariat entre le Delta festival et Epitech ,
+                                    j'ai élaboré dans une équipe composé de 2 personnes dont moi même ,
+                                    un site web ainsi qu'une application mobile.
+                                    le Projet n'étant pas encore sorti je ne peux vous en dire plus.</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </section>
+        </div>
 </body>
 
-<footer>
+<footer class="footer-basic-centered">
+    <p class="footer-company-motto">ATLANI MYLAN</p>
+    <p class="footer-links">
+        <a href="#nav">Home</a>
+        ·
+        <a href="#profil">Qui suis je ?</a>
+        ·
+        <a href="#project">Mes projets</a>
+        ·
+        <a href="#Contact">Contact</a>
+    </p>
+    <p class="footer-company-name">Thanks you to visited us</p>
 </footer>
 </html>
