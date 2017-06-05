@@ -4,6 +4,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" href="css/index.css">
 <link rel="stylesheet" href="css/footer.css">
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type='text/javascript' src='js/index.js'></script>
+<script src="https://use.fontawesome.com/1b3a6d8ddd.js"></script>
 </head>
 
 <body>
@@ -17,7 +20,8 @@
                 <ul class="container">
                     <li><a href="#profil">Qui suis je ?</a></li>
                     <li><a href="#project">Mes projets</a></li>
-                    <li><a href="#Contact">Me contacter</a></li>
+                    <li><a href="#skill">Mes compétences</a></li>
+                    <li><a href="#contact">Me contacter</a></li>
                 </ul>
             </div>
         </nav>
@@ -37,9 +41,9 @@
                     <div class="cont">
                         <img src="assets/friool.png" alt="Friool" class="image4">
                         <div class="overlay">
-                            <div class="text">
-                                <h2>Friool</h2>
-                                <p>Lors d'un stage d'une durée de + de 5 mois, j'ai aider à programmer avec mon maître de stage , le site Friool.
+                            <div class="text-container">
+                                <h2 class="text">Friool</h2>
+                                <p class="text2">Lors d'un stage d'une durée de + de 5 mois, j'ai aider à programmer avec mon maître de stage , le site Friool.
                                     J'ai programmé autant sur le back-end que le front-end du site.
                                     Le back-end en <b>Ruby on rails</b> et un front-end avec l'utilisation de <b>Bootstrap</b>.
                                 </p>
@@ -51,9 +55,9 @@
                     <div class="cont">
                         <img src="assets/delta.png" alt="Delta" class="image4">
                         <div class="overlay">
-                            <div class="text">
-                                <h2>Delta Festival</h2>
-                                <p>Dans le cadre d'un partenariat entre le Delta festival et Epitech ,
+                            <div class="text-container">
+                                <h2 class="text">Delta Festival</h2>
+                                <p class="text2">Dans le cadre d'un partenariat entre le Delta festival et Epitech ,
                                     j'ai élaboré dans une équipe composé de 2 personnes dont moi même ,
                                     un site web ainsi qu'une application mobile.
                                     le Projet n'étant pas encore sorti je ne peux vous en dire plus.</p>
@@ -62,6 +66,73 @@
                     </div>
                 </a>
             </section>
+
+            <section id="skill" class="main-container3">
+                <div>
+                    <h1>Mes compétences</h1>
+                </div>
+                <div class="skillbar clearfix " data-percent="70%">
+                	<div class="skillbar-title" style="background: #2659a5;"><span>CSS3</span></div>
+                	<div class="skillbar-bar" style="background: #439bd6;"></div>
+                	<div class="skill-bar-percent Count">70</div>
+                </div>
+                <div class="skillbar clearfix " data-percent="100%">
+                    <div class="skillbar-title" style="background: #e54f27;"><span>HTML5</span></div>
+                    <div class="skillbar-bar" style="background: #ec662b;"></div>
+                    <div class="skill-bar-percent Count">100</div>
+                </div>
+                <div class="skillbar clearfix " data-percent="80%">
+                    <div class="skillbar-title" style="background: #6713A1;"><span>C</span></div>
+                    <div class="skillbar-bar" style="background: #A289F4;"></div>
+                    <div class="skill-bar-percent Count">80</div>
+                </div>
+                <div class="skillbar clearfix " data-percent="75%">
+                    <div class="skillbar-title" style="background: #382202;"><span>C++</span></div>
+                    <div class="skillbar-bar" style="background: #812525;"></div>
+                    <div class="skill-bar-percent Count">75</div>
+                </div>
+                <div class="skillbar clearfix " data-percent="65%">
+                    <div class="skillbar-title" style="background: #99282d;"><span>Ruby rails</span></div>
+                    <div class="skillbar-bar" style="background: #ffffff;"></div>
+                    <div class="skill-bar-percent Count">65</div>
+                </div>
+                <div class="skillbar clearfix " data-percent="70%">
+                    <div class="skillbar-title" style="background: #ffffff;color: black !important;"><span>Unity</span></div>
+                    <div class="skillbar-bar" style="background: #232d38;"></div>
+                    <div class="skill-bar-percent Count">70</div>
+                </div>
+                <div class="skillbar clearfix " data-percent="90%">
+                    <div class="skillbar-title" style="background: #0868ab;"><span>JQuery</span></div>
+                    <div class="skillbar-bar" style="background: #000000;"></div>
+                    <div class="skill-bar-percent Count">90</div>
+                </div>
+                <div class="skillbar clearfix " data-percent="60%">
+                    <div class="skillbar-title" style="background: #1e1663;"><span>C#</span></div>
+                    <div class="skillbar-bar" style="background: #9073b3;"></div>
+                    <div class="skill-bar-percent Count">60</div>
+                </div>
+            </section>
+            <section id="contact" class="main-container3">
+                <div>
+                    <h1>Me contacter</h1>
+                </div>
+                <div id="contact" style="text-align: center;">
+                    <a  target="_blank" href="https://twitter.com/Atlani_Mylan?lang=fr" class="icon-button twitter">
+                        <i class="icon-twitter fa fa-twitter"></i>
+                        <span></span>
+                    </a>
+                    <a  target="_blank" href="https://www.facebook.com/mylan.atlani" class="icon-button facebook">
+                        <i class="icon-facebook fa fa-facebook"></i>
+                        <span></span>
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/mylan-atlani-162417ba/" class="icon-button google-plus">
+                        <i class="icon-google-plus fa fa-linkedin"></i>
+                        <span></span>
+                    </a>
+                </div>
+            </section>
+            <br>
+
         </div>
 </body>
 
@@ -74,7 +145,7 @@
         ·
         <a href="#project">Mes projets</a>
         ·
-        <a href="#Contact">Contact</a>
+        <a href="#skill">Mes compétences</a>
     </p>
     <p class="footer-company-name">Thanks you to visited us</p>
 </footer>
