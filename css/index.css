@@ -244,18 +244,18 @@ li a:hover {
 
 .cont {
   position: relative;
-  width: 47%;
+  width: 42vw;
   display: inline-block;
-  margin-left: 1.6%;
+  margin-left: 2.5%;
   border-width: 4px;
   border-style: solid;
   border-color: black;
 }
 
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 1100px) {
     .cont {
       position: relative;
-      width: 47%;
+      width: 42vw;
       display: inline-block;
       margin-left: 26.8%;
       border-width: 4px;
