@@ -673,7 +673,14 @@ ul.portfolio li.active {
 
 .statistics-section {
 	position: relative;
-    background: url(../images/bg/unity2.png);
+    background: url(../images/bg/EIP.jpg);
+    background-size: cover;
+    z-index: 1;
+}
+
+.statistics-section2 {
+    position: relative;
+    background: url(../images/bg/bordeaux1.jpg);
     background-size: cover;
     z-index: 1;
 }
@@ -1136,7 +1143,7 @@ ul.portfolio li.active {
 
 .scroll-to-top:hover,
 .scroll-to-top:focus {
-    background-color: #1bab58;
+    background-color: #701535;
     color: #ffffff;
 }
 
